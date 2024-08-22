@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 class YouTubeServices(ABC):
     def __init__(self, url: str) -> None:
         super().__init__()
-        self.api_key = "AIzaSyCMKIpVVoEIDlpU5SU_KM0bz_t22zfOjbw"
+        self.api_key = self.read_api_key("youtube_api_key.txt")
         self.youtube = build("youtube", "v3", developerKey=self.api_key)
         self.video_url = url
         self.video_id = self.get_video_id_from_url(url=url)
@@ -29,3 +29,17 @@ class YouTubeServices(ABC):
 
         else:
             raise ValueError("No video ID found in the URL")
+
+    def read_api_key(self, file_path: str) -> str:
+        try:
+            with open(file_path, "r") as file:
+                api_key = (
+                    file.readline().strip()
+                )  # Read the first line and strip any extra whitespace
+            if not api_key:
+                raise ValueError("API key file is empty.")
+            return api_key
+        except FileNotFoundError:
+            raise FileNotFoundError(f"The file {file_path} was not found.")
+        except Exception as e:
+            raise RuntimeError(f"An error occurred while reading the API key: {e}")

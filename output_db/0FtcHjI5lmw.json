@@ -1,0 +1,163 @@
+{
+    "Video Information": {
+        "Title": "How to Scrape YouTube Comments with Python 2024",
+        "Description": "Previous Video: https://www.youtube.com/watch?v=SIm2W9TtzR0\nCode Used:\nhttps://github.com/analyticswithadam/Python/blob/main/YouTube_Comments_Advanced.ipynb\n\nIn this video I will show you how to scape all comments from a youtube video as well as how to scape all youtube comments from multiple videos. With the twitter API deactivated the YouTube API is a perfect place to get data for sentiment analysis. The issue before what that the number of comments was limited to 100 but with the next page token and a while loop we can pull all comments from multiple youtube videos which gives us enough data to perform sentiment analysis.",
+        "Published At": "2023-10-31T09:15:30Z",
+        "View Count": "8368",
+        "Like Count": "176",
+        "Comment Count": "59"
+    },
+    "Subtitles": null,
+    "Comments": [
+        {
+            "author": "@analyticswithadam",
+            "text": "Updated Video with Replies https://youtu.be/A1III_DQU4I?si=_8-d4OpoIHpr2jJm",
+            "like_count": 0,
+            "published_at": "2024-02-06T20:59:40Z"
+        },
+        {
+            "author": "@emaa786",
+            "text": "I want to ask something anyone here?",
+            "like_count": 0,
+            "published_at": "2024-06-23T06:21:39Z"
+        },
+        {
+            "author": "@Fallkhar",
+            "text": "Thank you, man, you really made it work for me. My initial approach was HTML parsing with beautiful soup which proved to be very difficult because not all comments are loaded and I think google limits accessing that way as well.",
+            "like_count": 1,
+            "published_at": "2024-06-22T15:40:36Z"
+        },
+        {
+            "author": "@robosergTV",
+            "text": "Why would you do while 1==1 and not simply while True? Just for jokes?",
+            "like_count": 0,
+            "published_at": "2024-05-26T00:13:21Z"
+        },
+        {
+            "author": "@joysarkar-hb4tj",
+            "text": "how i get or save file of these extract comments???",
+            "like_count": 0,
+            "published_at": "2024-04-24T08:40:05Z"
+        },
+        {
+            "author": "@mrpepeluis950",
+            "text": "Chido one, great video!",
+            "like_count": 0,
+            "published_at": "2024-04-13T20:48:02Z"
+        },
+        {
+            "author": "@christinapachaki3554",
+            "text": "great work, can someone please share with me the video that demonstrates the API KEy?",
+            "like_count": 0,
+            "published_at": "2024-04-09T09:55:05Z"
+        },
+        {
+            "author": "@04mdsimps",
+            "text": "Really nice work. Good stuff",
+            "like_count": 0,
+            "published_at": "2024-03-20T20:10:32Z"
+        },
+        {
+            "author": "@mohamedmowena353",
+            "text": "Can u make a video in how to scrape the captions/subtitle. Thank u very much.",
+            "like_count": 0,
+            "published_at": "2024-02-19T20:50:12Z"
+        },
+        {
+            "author": "@BECEOOYaashuDave",
+            "text": "What if i want to extract the replies as well?What should we do?",
+            "like_count": 0,
+            "published_at": "2024-01-31T18:15:09Z"
+        },
+        {
+            "author": "@yuxrazafar8532",
+            "text": "I want to extract the comments from a playlist. do i have to gather all the IDs manually or I can automate it through some API?",
+            "like_count": 1,
+            "published_at": "2024-01-28T13:38:45Z"
+        },
+        {
+            "author": "@user-qo3ko1ex2f",
+            "text": "Very useful video. Thank you for sharing sharing knowledge.",
+            "like_count": 0,
+            "published_at": "2024-01-23T22:34:59Z"
+        },
+        {
+            "author": "@sarvarbekfozilov9829",
+            "text": "#question\nhi adam thank for tutorial.\ncurrently i need scrap comments from instagram and facebook how can i do that?",
+            "like_count": 0,
+            "published_at": "2024-01-15T08:52:52Z"
+        },
+        {
+            "author": "@JamesDeanDesigns",
+            "text": "This really helped me out. Thank you",
+            "like_count": 0,
+            "published_at": "2023-12-20T11:38:42Z"
+        },
+        {
+            "author": "@user-zi2si5gw4u",
+            "text": "Hi Adam, Thanks for this tutorial series, very helpful! If i don't have the IDs of the videos but a phrase I'd like to analyse (like \"Die letzte Generation\"), how can i proceed based on your code? Thanks for your time!",
+            "like_count": 0,
+            "published_at": "2023-12-14T15:17:54Z"
+        },
+        {
+            "author": "@oitik",
+            "text": "Great video. I have a question i am doing a research where i need to scrape comments from a live stream. How can i do that can you help?\nbecause your code cannot scrape the live comments.",
+            "like_count": 0,
+            "published_at": "2023-12-14T07:20:02Z"
+        },
+        {
+            "author": "@zeha997",
+            "text": "Is there any way to extract comment after  translating in  english?\nI want to extract only english comments.",
+            "like_count": 0,
+            "published_at": "2023-12-08T15:46:48Z"
+        },
+        {
+            "author": "@cryptic2705",
+            "text": "thanks for the tutorial !!!\nbtw is there any daily limit for using the API ? and also how much does the API cost ?\nI'm planning to build a model for sentiment analysis based from yt comments of a movie trailer.\nI want to use Oppenheimer trailer as the data source. \nThe trailer has approximately 32 thousand comments.",
+            "like_count": 0,
+            "published_at": "2023-12-08T08:07:49Z"
+        },
+        {
+            "author": "@zeha997",
+            "text": "how to extract these comments in excel?",
+            "like_count": 0,
+            "published_at": "2023-12-07T10:22:31Z"
+        },
+        {
+            "author": "@omerfaruksezeerr",
+            "text": "hello, I just want to pull the comments on a yotube channel, how can I do this, do I need to do a separate process for each video or is this possible only for a yotube account please help me thank you very much",
+            "like_count": 0,
+            "published_at": "2023-12-01T08:24:28Z"
+        },
+        {
+            "author": "@damochi100",
+            "text": "does exactly what it says",
+            "like_count": 1,
+            "published_at": "2023-11-22T19:10:38Z"
+        },
+        {
+            "author": "@rahulbora7323",
+            "text": "Very informative video!!!\nCan you help me with vidoes in which comments are disabled.\n\nWARNING:googleapiclient.http:Encountered 403 Forbidden with reason \"commentsDisabled\"\n\n\nHow to solve this situation!!",
+            "like_count": 0,
+            "published_at": "2023-11-21T17:00:34Z"
+        },
+        {
+            "author": "@gsonbiswas9765",
+            "text": "Does it extract the nested comments?",
+            "like_count": 0,
+            "published_at": "2023-11-20T13:25:15Z"
+        },
+        {
+            "author": "@emmanuel.alcantara",
+            "text": "how can I extract for example the 967 comments to a txt file?",
+            "like_count": 0,
+            "published_at": "2023-11-13T03:06:36Z"
+        },
+        {
+            "author": "@duchess4738",
+            "text": "Great video! Do you know how much of your quota this used up or roughly how many comments you can extract per day with the current call limit quota? Thanks again!",
+            "like_count": 1,
+            "published_at": "2023-11-11T15:37:56Z"
+        }
+    ]
+}

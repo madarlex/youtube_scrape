@@ -1,0 +1,12 @@
+{
+    "Video Information": {
+        "Title": "Automating YouTube Analytics: Postman Flows & Google API Deep Dive",
+        "Description": "In this week's Postman LIVE, Ian and Kevin are kicking off a new series that takes us through building an entire project from scratch using Postman. Follow along as we build an application that automates gathering YouTube Analytics from the Google YouTube API and stores them for processing in part one of this new three-part series.\n\nGet notified when Postman goes live by following us on YouTube!\nhttps://www.youtube.com/@postman\n\n00:00 Introductions\n05:30 In Case You Missed in\n10:30 Setting up Google Project, choosing APIs\n26:40 Creating/Storing credentials in a secure way in Postman, setting up OAuth2\n56:30 Calling YouTube APIs\n1:13:00 Working with the Google Sheets API\n1:24:15 Wrap-up, shout-outs\n\nLinks from the stream:\n- blog post about Google OAuth2: https://blog.postman.com/how-to-access-google-apis-using-oauth-in-postman/\n- in-person events: https://community.postman.com/c/events/6\n- Intergalactic: https://www.postman.com/events/intergalactic/\n\nContact us:\nIf you have questions or comments about any Postman features, pricing, or anything else, our team is always ready. Visit our Support Center to get started:\nhttps://www.postman.com/support\n\nPlease familiarize yourself with the Postman Community code of conduct.\nhttps://www.postman.com/legal/community-code-of-conduct/\n\n#oauth2 #google #youtube #apis",
+        "Published At": "2023-08-25T05:03:58Z",
+        "View Count": "2984",
+        "Like Count": "23",
+        "Comment Count": "0"
+    },
+    "Subtitles": null,
+    "Comments": []
+}
